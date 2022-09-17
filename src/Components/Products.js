@@ -44,7 +44,7 @@ const Products = () => {
             <div className="w-full flex flex-row flex-wrap justify-center">
                 {
                     filterCharacters.map((item , index) => (
-                        <div key={index} className="w-3/4 sm:w-1/3 lg:w-1/5 m-2 -2 rounded-xl bg-[url(https://pbs.twimg.com/media/D4ZIBUjW4AAwPWb.jpg)] text-white">
+                        <div key={index} className="w-3/4 sm:w-1/3 lg:w-1/4 xl:w-1/5 m-2 -2 rounded-xl bg-[url(https://pbs.twimg.com/media/D4ZIBUjW4AAwPWb.jpg)] text-white">
                             <div className="w-full flex justify-center my-2 h-56">
                                 <img className="w-fit m-auto h-full" src={item.image} alt=""/>
                             </div>
@@ -61,7 +61,7 @@ const Products = () => {
     );
 }
 
-export default Products ;
+export default Products;
 
 
 

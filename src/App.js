@@ -1,6 +1,6 @@
 import Products from './Components/Products'
 
-function App() {
+const App = () =>  {
   return (
     <div className="App">
       <Products/>
