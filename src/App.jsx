@@ -1,11 +1,11 @@
-import Products from './Components/Products';
-import Header from './Components/Header';
+import IndexProducts from './Components/container/IndexProducts';
+import Header from './Components/container/Header';
 
 const App = () =>  {
   return (
     <div className="App">
       <Header/>
-      <Products/>
+      <IndexProducts/>
     </div>
   );
 }
