@@ -1,5 +1,5 @@
 import IndexProducts from './Components/container/IndexProducts';
-import Header from './Components/container/Header';
+import Header from './Components/pure/Header';
 
 const App = () =>  {
   return (

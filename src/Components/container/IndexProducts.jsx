@@ -1,7 +1,8 @@
 import React, { useState , useEffect } from "react";
 import getData from '../../Services/Data';
-import Loader from '../pure/Loader'
+import Loader from '../pure/Loader';
 import Product from "../pure/Product";
+import Search from '../pure/Search'
 
 
 const IndexProducts = () => {
@@ -47,9 +48,7 @@ const IndexProducts = () => {
 
     return (
         <>
-            <div className="w-full flex justify-center mb-8">
-                <input className="w-3/4 border-2 border-teal-600 rounded-full p-4" type="text" placeholder="Search character" onChange={ e => seachcharacters(e.target.value) }></input>
-            </div>
+            <Search seachcharacters={seachcharacters} />
             { loading && 
                 <Loader/> 
             }
